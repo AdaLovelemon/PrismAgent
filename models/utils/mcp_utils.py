@@ -160,6 +160,15 @@ async def run_mcp_agent(client, model_name, system_instruction, user_query, sess
                     try:
                         mcp_result = await session.call_tool(fn_name, fn_args)
                         result_text = str(mcp_result.content[0].text)
+                        
+                        # 如果是 run_terminal_command，打印详细执行信息
+                        if fn_name == "run_terminal_command":
+                            command = fn_args.get("command", "")
+                            session_id = fn_args.get("session_id", "default")
+                            print(f"\n$ [session:{session_id}] > {command}")
+                            if result_text and not result_text.startswith("Error"):
+                                print(result_text)
+                            print()
                     except Exception as e:
                         result_text = f"Error calling tool {fn_name}: {str(e)}"
                 else:

@@ -3,9 +3,11 @@ import json
 import os
 import argparse
 import sys
+import logging
 
 from models import deepseek, qwen
 from models.utils.mcp_utils import run_mcp_agent
+
 
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
@@ -57,6 +59,16 @@ def main():
 
     # Get the absolute path of the current script directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Configure logging to capture MCP notifications
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[logging.StreamHandler(sys.stderr)]
+    )
+    # Suppress httpx request logging
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
 
     # Instantiate the client based on the selected model
     print(f"[*] Initializing {args.model} client...")

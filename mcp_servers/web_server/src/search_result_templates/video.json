@@ -1,0 +1,121 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "videos",
+        "num": 10,
+        "page": 1,
+        "engine": "google"
+    },
+    "videos": [
+        {
+            "title": "Apple Events",
+            "link": "https://www.apple.com/apple-events/",
+            "snippet": "More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE (1-800-692-7753). United States. Copyright © 2026 Apple Inc. All ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5fR-WFHETNAdNCNo0cjtPTZ1a5DtlHToeyCrj-mj7lEs6CMn0BT5YA&s",
+            "source": "Apple",
+            "date": "59 minutes ago",
+            "position": 1
+        },
+        {
+            "title": "Apple's Major Shake-Up! A Good Thing? Or Is Apple In Trouble?",
+            "link": "https://www.youtube.com/watch?v=PtiyJdHUmBo",
+            "snippet": "... Apple is experiencing its biggest shake-up for talent and leadership since Steve Jobs passed away. What direction will the company go? Is ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSCDoNMZCiLhNcH9LK7krYcuq2dcNYrKMCa9OI6LGpuvEQYgP-yfOl5g&s",
+            "duration": "16:29",
+            "source": "YouTube",
+            "channel": "Brian Tong",
+            "date": "Dec 6, 2025",
+            "position": 2
+        },
+        {
+            "title": "Apple Is Falling Apart (On Purpose)",
+            "link": "https://www.youtube.com/watch?v=e1E-yfcKdUw",
+            "snippet": "... Apple's Silicon chief remains crucial to the company's future under a likely John Ternus CEO succession. Comparing Apple's strategy to GE's ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ6BV8nJ5f2unRDSDRld7KtvwHAw571V3FNkt2AKTXhprbbP-VYjLY4A&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcS14Yq210_SxbHAx_XnGXX7cbaUehn1mh0_bA",
+            "duration": "16:58",
+            "source": "YouTube",
+            "channel": "Snazzy Labs",
+            "date": "1 month ago",
+            "position": 3
+        },
+        {
+            "title": "Apple",
+            "link": "https://www.youtube.com/user/Apple",
+            "snippet": "Watch new Apple Originals on the Apple TV app with an Apple TV+ subscription: apple.co/_Apple-TV-Plus · 1:50 · The Last Thing He Told Me — Season 2 Official ...",
+            "position": 4
+        },
+        {
+            "title": "Apple's Secret to Success Isn't Hardware... It's THIS",
+            "link": "https://www.youtube.com/watch?v=0Ar1edhAulo",
+            "snippet": "EKSTER Card Holder and Wallets: up to 32% off right now until Aug 18th, and use code SAMUELNAM for an extra 10% off at checkout: ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDQ3YawEwKwxE2uhVikvEmoe8XmQn2EEs9_NfJs3zGyr_oD5cJrG_8w&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRZpqRfK8aet7UCuv_rutrDODcyri1-9niPVA",
+            "duration": "13:25",
+            "source": "YouTube",
+            "channel": "Samuel Nam",
+            "date": "Jul 18, 2025",
+            "position": 5
+        },
+        {
+            "title": "Apple Has Watched AI From the Stands Says Dan Ives",
+            "link": "https://www.youtube.com/watch?v=zO_g3FMT4-g",
+            "snippet": "Apple Inc. enjoyed a sharp rebound in China during the holiday period, when demand for the new iPhone 17 fueled its first $25 billion ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwOXcXUNouHL1XzVPGiMjJG8yJf9FzdeiZhCIWw114eKvebE06Hhk-A&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTJy_I_qu6Fr_vXVGGvtEDvAGnpCxU1YaWrVQ",
+            "duration": "5:24",
+            "source": "YouTube",
+            "channel": "Bloomberg Television",
+            "date": "5 days ago",
+            "position": 6
+        },
+        {
+            "title": "Apple Has Become IBM",
+            "link": "https://www.youtube.com/watch?v=NMi8748iU4I",
+            "snippet": "... co... ○ Where I Work: / @telotrucks ○ Contact: https://x.com/tailosiv... Apple Has Become IBM. 415K views · 11 months ago ...more. Tailosive ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYm5MwbxMWh5X9_RJvM3guyiB4Y8a5lNTVlkBviSbPCP4F7clfNvkh1A&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTSaCtTvwlckBuLWfjEq5RpGo5-NHHDmsf__A",
+            "duration": "7:40",
+            "source": "YouTube",
+            "channel": "Tailosive Tech",
+            "date": "Feb 4, 2025",
+            "position": 7
+        },
+        {
+            "title": "Apple Has Watched AI From the Stands Says Dan Ives",
+            "link": "https://www.youtube.com/watch?v=F1qbvHaAZFM",
+            "snippet": "Apple Inc. enjoyed a sharp rebound in China during the holiday period, when demand for the new iPhone 17 fueled its first $25 billion ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwOXcXUNouHL1XzVPGiMjJG8yJf9FzdeiZhCIWw114eKvebE06Hhk-A&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTyhmuKMcJ-ZJeI80M1PkPHXYgEp2Df68D4UQ",
+            "duration": "5:24",
+            "source": "YouTube",
+            "channel": "Bloomberg Podcasts",
+            "date": "5 days ago",
+            "position": 8
+        },
+        {
+            "title": "Apple: How the company evolved into a global tech giant",
+            "link": "https://www.youtube.com/watch?v=39Q7r76Uudg",
+            "snippet": "Apple (AAPL) generated more than $394 billion in revenue in 2022. But how were they able to achieve such success? Behind The Ticker charts ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4EB1_Zus26i2bUJMajw3-lWWyu_u4SzcjZ36v58u8DEtJ_rlVbwivA&s",
+            "videoUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRY1JPKk7V_r8vThrgH1r1gNZ5QVbBjAOepiQ",
+            "duration": "2:12",
+            "source": "YouTube",
+            "channel": "Yahoo Finance",
+            "date": "Feb 17, 2024",
+            "position": 9
+        },
+        {
+            "title": "Apple CEO Tim Cook talks memory shortages, other supply ...",
+            "link": "https://finance.yahoo.com/video/apple-ceo-tim-cook-talks-memory-shortages-other-supply-constraints-230214568.html",
+            "snippet": "On the conference call, Apple CEO Tim Cook said the company is in \"supply chase mode\" to meet demand for its current iPhones, and that he ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rO0UJOsCqnKRdmN3PcqY2MtNg5gARxtiHmk84wkMun9FLvbpPQTKqA&s",
+            "duration": "2:02",
+            "source": "Yahoo Finance",
+            "channel": "Yahoo Finance Video",
+            "date": "6 days ago",
+            "position": 10
+        }
+    ],
+    "credits": 1
+}

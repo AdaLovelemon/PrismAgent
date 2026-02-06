@@ -1,0 +1,13 @@
+[project]
+name = "code_server"
+version = "0.1.0"
+description = "MCP Code Server for persistent terminal execution and secure file management"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "mcp>=0.1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

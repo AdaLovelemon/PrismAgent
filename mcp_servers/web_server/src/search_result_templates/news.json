@@ -1,0 +1,93 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "news",
+        "num": 10,
+        "page": 1,
+        "allowSuggested": true,
+        "engine": "google"
+    },
+    "news": [
+        {
+            "title": "Apple Inc. | History, Products, Headquarters, & Facts | Britannica Money",
+            "link": "https://www.britannica.com/money/Apple-Inc",
+            "snippet": "Founded by Steve Jobs and Steve Wozniak in 1976, Apple set new benchmarks in product innovation, user-centric functionality, aesthetics and...",
+            "date": "6 days ago",
+            "source": "Britannica",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0JIZiTmDTQYCKcd-khBR5qbJlTm2csfXenWmWCI9BZzI843AeDlOGPQ&usqp=CAI&s"
+        },
+        {
+            "title": "Apple Inc. (AAPL): A bear case theory",
+            "link": "https://www.msn.com/en-us/money/topstocks/apple-inc-aapl-a-bear-case-theory/ar-AA1VH8h7?ocid=finance-verthp-feeds",
+            "snippet": "We came across a bearish thesis on Apple Inc. on CompoundingLab's Substack. In this article, we will summarize the bears' thesis on AAPL. Apple Inc.'s share...",
+            "date": "7 hours ago",
+            "source": "MSN",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqYnSTKzXJCG3RQa9kSAGXM89hxt7b7v-U3h832c-_WXx3TWwsxz23hcU&usqp=CAI&s"
+        },
+        {
+            "title": "Apple Inc. $AAPL Position Decreased by PKO Investment Management Joint Stock Co",
+            "link": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-position-decreased-by-pko-investment-management-joint-stock-co-2026-02-05/",
+            "snippet": "PKO Investment Management Joint Stock Co cut its holdings in Apple Inc. (NASDAQ:AAPL - Free Report) by 12.6% in the 3rd quarter,...",
+            "date": "1 hour ago",
+            "source": "MarketBeat",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhq42CsOy0LlqOtHUqlivJPB0dg_lq7hN0eI5t2ZYSaxo1RfNksk3lyA&usqp=CAI&s"
+        },
+        {
+            "title": "Check your mail: You may have gotten a payment as part of a $95M Apple settlement",
+            "link": "https://www.nbcchicago.com/news/local/check-your-mail-you-may-have-gotten-a-payment-as-part-of-a-95m-apple-settlement/3886299/",
+            "snippet": "Apple last year agreed to pay $95 million the lawsuit, which alleged “unlawful and intentional recording of individuals confidential...",
+            "date": "17 hours ago",
+            "source": "NBC 5 Chicago",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_JwgfyWZDHJ7J7ekAeEZHJ2IXT0noTEYhHcPJPdpFR5qBGaUwcAOf14&usqp=CAI&s"
+        },
+        {
+            "title": "Evercore ISI Stays Outperform on Apple (AAPL), Keeps $330 Target",
+            "link": "https://finviz.com/news/300723/evercore-isi-stays-outperform-on-apple-aapl-keeps-330-target",
+            "snippet": "Apple Inc. (NASDAQ:AAPL) is one of the 10 Buzzing AI Stocks on Market Radar. On February 2, Evercore ISI analyst Amit Daryanani reiterated...",
+            "date": "3 hours ago",
+            "source": "Finviz",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHjsmvvd6GbTKlcDCF3_Eh3Lcpwf9mSOpNyfI9_fE0WWhCHnEmhJ5w7c&usqp=CAI&s"
+        },
+        {
+            "title": "Apple Beats Tech Stocks by Most in a Year as It Avoids AI Panic",
+            "link": "https://www.bloomberg.com/news/articles/2026-02-04/apple-beats-tech-stocks-by-most-in-a-year-as-it-avoids-ai-panic",
+            "snippet": "Apple Inc. is trading in the opposite direction of technology stocks and the broader market as investors increasingly view it as an oasis of...",
+            "date": "16 hours ago",
+            "source": "Bloomberg",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31w9v5tbadmhaWC4fLQWdFW0WAWGu1rZz2BwJbFCsj4WuRcdTIWSfSVI&usqp=CAI&s"
+        },
+        {
+            "title": "Apple: The Pros And Cons Of Investing Right Now - Downgrading To Hold",
+            "link": "https://seekingalpha.com/article/4865889-apple-the-pros-and-cons-of-investing-right-now-downgrading-to-hold",
+            "snippet": "Apple maintains a dominant position in smartphones and personal computers, supported by robust net sales and significant market share.",
+            "date": "17 hours ago",
+            "source": "Seeking Alpha",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5frpmq5VM7arXBLLBartTjR6jsPoG8CEOO4fy82YmO474MM4Vij5Sv0&usqp=CAI&s"
+        },
+        {
+            "title": "Apple Inc. $AAPL Shares Sold by GRIMES & Co WEALTH MANAGEMENT LLC",
+            "link": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-sold-by-grimes-co-wealth-management-llc-2026-02-05/",
+            "snippet": "GRIMES & Co WEALTH MANAGEMENT LLC lowered its stake in shares of Apple Inc. (NASDAQ:AAPL - Free Report) by 5.0% during the third quarter,...",
+            "date": "1 hour ago",
+            "source": "MarketBeat",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhq42CsOy0LlqOtHUqlivJPB0dg_lq7hN0eI5t2ZYSaxo1RfNksk3lyA&usqp=CAI&s"
+        },
+        {
+            "title": "Apple Inc. (AAPL) Acquires Israeli Startup Q.ai For Approximately $2 Billion: Report",
+            "link": "https://finance.yahoo.com/news/apple-inc-aapl-acquires-israeli-175510473.html",
+            "snippet": "Apple Inc. (NASDAQ:AAPL) is among the 12 Most Profitable NASDAQ Stocks to Buy Right Now. The tech giant has acquired Israeli AI audio...",
+            "date": "3 days ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6jihVfCkPqHRE-8FeriCcx59_L8nFG1w6kjFcVxRlAn_DJGG_EeWIlCg&usqp=CAI&s"
+        },
+        {
+            "title": "Apple call provides insight into non-AI memory market: Kuo",
+            "link": "https://seekingalpha.com/news/4547314-apple-call-provides-insight-into-non-ai-memory-market-kuo",
+            "snippet": "Apple earnings call flags memory “cost pressure” vs “supply constraint,” impacting non‑AI DRAM/NAND stocks and smartphone demand outlook.",
+            "date": "16 hours ago",
+            "source": "Seeking Alpha",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ29npxNjabuojWK8xSKHmKVdRN4JcJC0HPXX6yT47NQnLiiVIFR_R0iY&usqp=CAI&s"
+        }
+    ],
+    "credits": 1
+}

@@ -1,3 +1,5 @@
+from models.utils.frontend import print_tokentracker
+
 class TokenTracker:
     def __init__(self):
         self.prompt_tokens = 0
@@ -21,4 +23,4 @@ class TokenTracker:
         self.total_tokens = 0
 
     def report(self, label):
-        print(f"[TokenTracker]({label}) Usage: Prompt={self.prompt_tokens}, Completion={self.completion_tokens}, Total={self.total_tokens}")
+        print_tokentracker(f"Usage: Prompt={self.prompt_tokens}, Completion={self.completion_tokens}, Total={self.total_tokens}", label)

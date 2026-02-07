@@ -4,7 +4,7 @@ from typing import Optional, List, Dict, Any, Union
 from datetime import datetime
 
 from openai import OpenAI
-from models.utils.TokenTracker import TokenTracker
+from models.utils.tracker import TokenTracker
 
 class BaseClient:
     """
@@ -141,6 +141,7 @@ class BaseClient:
             tool_choice="auto",
             completion_name=None,
             update_history=True,
+            use_history=True,
             **kwargs
         ):
         """
@@ -153,6 +154,7 @@ class BaseClient:
             max_tokens (int): Maximum tokens for the completion.
             temperature (float): Sampling temperature.
             update_history (bool): If True, appends input and response to message_history.
+            use_history (bool): If True, includes existing message_history in the request.
             completion_name (str, optional): Custom label for token usage reporting.
             tools (list, optional): List of OpenAI-format functions for tool calls.
             **kwargs: Additional parameters passed to client.chat.completions.create.
@@ -161,7 +163,7 @@ class BaseClient:
             ChatCompletion: The full response object from the API.
         """
         # Prepare messages
-        current_history = list(self.message_history)
+        current_history = list(self.message_history) if use_history else []
         
         # Add input to history if requested
         if message_input:
@@ -171,7 +173,7 @@ class BaseClient:
             else:
                 messages_to_send = current_history + message_input
         else:
-            raise ValueError("[Client.create_completion()] `message_input` cannot be None or empty.")
+            messages_to_send = current_history
 
         # Update system prompt if provided
         if prompt_system and isinstance(prompt_system, str):

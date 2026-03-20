@@ -7,6 +7,9 @@ dependencies = [
     "requests",
     "beautifulsoup4",
     "python-dotenv",
+    "gdown",
+    "yt-dlp",
+    "huggingface_hub",
 ]
 
 [build-system]

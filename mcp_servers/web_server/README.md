@@ -44,6 +44,12 @@ pip install .
 
 ### Utilities
 - `fetch_webpage(url, timeout)`: Fetches cleaned text and image links from the specified URL.
+- `download_generic_file(url, output_dir)`: Downloads a file from a direct web URL (e.g., PDF, ZIP).
+- `download_gdrive_file(url, output_dir)`: Downloads a file from a public Google Drive share link.
+- `download_video_audio(url, output_dir, format)`: Downloads video or audio from YouTube and other platforms via yt-dlp.
+- `download_hf_file(repo_id, filename, subfolder, repo_type, output_dir)`: Downloads a specific file from Hugging Face Hub.
+- `download_github_content(url, output_dir)`: Downloads raw files or repository archives from GitHub.
+- `download_file(url, output_dir)`: An all-in-one download tool that automatically detects the link type and uses the appropriate method.
 
 ## Usage
 

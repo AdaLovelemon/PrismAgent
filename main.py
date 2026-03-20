@@ -53,7 +53,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='deepseek', help='Choose the model to use')
     parser.add_argument('--model_name', type=str, default='deepseek-chat', help='Model name for the selected model')
-    parser.add_argument('--question', type=str, required=True, help='The question to ask the agent')
+    parser.add_argument('--question', type=str, default=None, help='The question to ask the agent')
     parser.add_argument('--prompt_system', type=str, 
                         default='你是一个强大的智能助手，擅长通过调用外部工具解决复杂问题。',
                         help='System prompt for the agent')
@@ -90,7 +90,10 @@ def main():
 
     web_server_params = StdioServerParameters(
         command=sys.executable,
-        args=[os.path.join(web_path, "server.py")],
+        args=[
+            os.path.join(web_path, "server.py"),
+            "--sandbox-path", CODE_SANDBOX_PATH
+        ],
         env=web_env
     )
 
